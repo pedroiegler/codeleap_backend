@@ -20,7 +20,7 @@ Projeto construído com **Django**, **Django REST Framework**, **PostgreSQL** e 
 
 ## 📁 Variáveis de ambiente
 
-Crie um arquivo `.env` dentro da pasta `dotenv_files`, que fica na raiz do projeto a partir do arquivo de exemplo `.env-example`.
+Crie um arquivo `.env` na pasta `dotenv_files` (localizada na raiz do projeto) a partir do arquivo de exemplo `.env-example`.
 
 ---
 
