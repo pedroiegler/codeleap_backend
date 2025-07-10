@@ -7,7 +7,7 @@ Projeto construído com **Django**, **Django REST Framework**, **PostgreSQL** e 
 
 ## 🧪 Funcionalidades
 
-- Criar, listar, editar e deletar posts de usuários.
+- Criar, listar, editar e deletar os 'careers' de usuários.
 - Documentação Swagger disponível em `/swagger/`.
 
 ---
@@ -45,6 +45,85 @@ docker-compose up --build
 
 - Banco de dados: PostgreSQL (em container separado).
 - Documentação automática: Swagger via drf-yasg.
+
+---
+  
+## 📦 Exemplos de Requisições
+
+### Criar um post
+
+**POST** `/careers/`
+
+```json
+{
+    "username": "string",
+    "title": "string",
+    "content": "string"
+}
+```
+
+**Resposta:**
+```json
+{
+    "id": "number",
+    "username": "string",
+    "created_datetime": "datetime",
+    "title": "string",
+    "content": "string"
+}
+```
+
+---
+
+### Listar 'careers'
+
+**GET** `/careers/`
+
+**Resposta:**
+```json
+[
+  {
+    "id": "number",
+    "username": "string",
+    "created_datetime": "datetime",
+    "title": "string",
+    "content": "string"
+  }
+]
+```
+
+---
+
+### Editar um post
+
+**PATCH** `/careers/1/`
+
+```json
+{
+    "title": "string",
+    "content": "string"
+}
+```
+
+**Resposta:**
+```json
+{
+    "id": "number",
+    "username": "string",
+    "created_datetime": "datetime",
+    "title": "string",
+    "content": "string"
+}
+```
+
+---
+
+### Deletar um post
+
+**DELETE** `/careers/1/`
+
+**Resposta:**
+Status 204 No Content
 
 ---
 

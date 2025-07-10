@@ -9,7 +9,7 @@ class CareerListCreateView(generics.ListCreateAPIView):
     serializer_class = CareerSerializer
 
     @swagger_auto_schema(
-        operation_description="Retorna a lista de todos os posts criados",
+        operation_description="Retorna a lista de todos os 'careers' criados",
         responses={200: CareerSerializer(many=True)},
         tags=["Careers"]
     )
