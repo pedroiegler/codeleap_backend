@@ -50,8 +50,6 @@ docker-compose up --build
   
 ## 📦 Exemplos de Requisições
 
-### Criar um post
-
 **POST** `/careers/`
 
 ```json
@@ -75,8 +73,6 @@ docker-compose up --build
 
 ---
 
-### Listar 'careers'
-
 **GET** `/careers/`
 
 **Resposta:**
@@ -93,8 +89,6 @@ docker-compose up --build
 ```
 
 ---
-
-### Editar um post
 
 **PATCH** `/careers/1/`
 
@@ -117,8 +111,6 @@ docker-compose up --build
 ```
 
 ---
-
-### Deletar um post
 
 **DELETE** `/careers/1/`
 
