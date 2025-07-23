@@ -1,6 +1,6 @@
-# 🚀 CodeLeap Careers API
+# 🚀 Careers API
 
-API desenvolvida para o teste técnico de backend da CodeLeap.  
+API desenvolvida para o teste técnico de backend.  
 Projeto construído com **Django**, **Django REST Framework**, **PostgreSQL** e **Swagger** (via `drf-yasg`), e containerizado com **Docker**.
 
 ---
